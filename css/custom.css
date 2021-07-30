@@ -1,0 +1,34 @@
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #e2001a !important;
+}
+
+.nav-link {
+    color: #e2001a;
+}
+
+.pb-10 {
+    padding-bottom: 120px;
+}
+
+.browser-logo {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.block-circle {
+    height: 20px;
+    width: 20px;
+}
+
+.navbar-dark {
+    background-color: #043882;
+}
+
+.bg-menu {
+    background-color: #68B022 ;
+}
+
+.btn-secondary {
+    background-color: #f49c00;
+    border-color: #f49c00;
+}
