@@ -3,21 +3,7 @@
 }
 
 .nav-link {
-    color: #e2001a;
-}
-
-.pb-10 {
-    padding-bottom: 120px;
-}
-
-.browser-logo {
-    height: 24px;
-    margin-right: 10px;
-}
-
-.block-circle {
-    height: 20px;
-    width: 20px;
+    color: #043882;
 }
 
 .navbar-dark {
@@ -31,4 +17,9 @@
 .btn-secondary {
     background-color: #f49c00;
     border-color: #f49c00;
+}
+
+.small-inline-image {
+    height: 24px;
+    margin-right: 10px;
 }

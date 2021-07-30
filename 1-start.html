@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Programmieren mit TigerJython - Einrichtung und Start</title>
+    <title>Programmieren mit TigerJython - Einrichtung und Programmstart</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
@@ -16,15 +16,70 @@
 </head>
 
 <body>
-    <div data-include="header.html"></div>
-    <div class="d-flex flex-row justify-content-start">
-        <div data-include="menu.html"></div>
-        <div class="flex-column w-100">
-            <div class="px-3 py-2">
-                <h1>...</h1>
-                <div class="border-top my-5 py-3">
-                    <a href="index.html" class="btn btn-lg btn-secondary float-start">Vorherige Seite</a>
-                    <a href="#" class="btn btn-lg btn-secondary float-end">Nächste Seite</a>
+    <div class="container-fluid min-vh-100 d-flex flex-column">
+        <div data-include="header.html" class="row navbar-dark"></div>
+        <div class="row flex-grow-1">
+            <div data-include="menu.html" class="col-xl-3 col-xxl-2 bg-menu"></div>
+            <div class="col-xl-9 col-xxl-10 d-flex flex-column justify-content-between">
+                <div class="row">
+                    <div class="col-12 p-3">
+                        <h1 class="mb-4">Einrichtung und Programmstart</h1>
+                        <h5 class="mt-4 border-top pt-3"><span class="badge bg-dark">1.</span> Mit TigerJython
+                            programmieren</h5>
+                        <p>
+                            TigerJython ist eine einfache Variante der Programmiersprache Python, mit der du
+                            verschiedene Sachen programmieren kannst. Du kannst dabei eine kleine Schildkröte - die
+                            Turtle - bewegen und Bilder, Formen und Texte zeichnen lassen. Um mit TigerJython zu
+                            programmieren, kannst du dir entweder ein spezielles Programm herunterladen und installieren
+                            oder du arbeitest mit dem Browser.
+                            <br />
+                            Hier hast du die Möglichkeit dir das Programm herunterzuladen: <a
+                                href="https://www.tjgroup.ch/index.php?site=download">Programm download</a>.
+                        </p>
+                        <p>
+                            Weil es jedoch schneller und einfacher geht, werden wir im weiteren Verlauf dieses Tutorials
+                            die Web-Version von TigerJython im Browser verwenden. Wie du diese startest, wird dir im
+                            nächsten Schritt erklärt.
+                        </p>
+                        <h5 class="mt-4 border-top pt-3"><span class="badge bg-dark">2.</span> WebTigerJython starten
+                        </h5>
+                        <p>
+                            Öffne zunächst einen Browser deiner Wahl, z.B.:
+                        </p>
+
+                        <ul>
+                            <li class="mb-3"><img src="img/einrichten/chrome-logo.png" alt="Google Chrome"
+                                    class="browser-logo" />Google Chrome</li>
+                            <li class="mb-3"><img src="img/einrichten/firefox-logo.png" alt="Firefox"
+                                    class="browser-logo" />Firefox</li>
+                            <li class="mb-3"><img src="img/einrichten/edge-logo.jpg" alt="Microsoft Edge"
+                                    class="browser-logo" />Microsoft Edge</li>
+                        </ul>
+
+                        <p>
+                            Jetzt sagen wir dem Browser, dass wir die Scratch-Seite ansehen möchten. Gib dafür in die
+                            Adresszeile des Browsers folgenden
+                            Text ein und bestätige die Eingabe abschließend mit der Enter-Taste. <br />
+
+                            <code>https://webtigerjython.ethz.ch/</code>
+                        </p>
+                        <p>
+                            Alternativ kannst du einfach den folgenden Link anklicken: <a
+                                href="https://webtigerjython.ethz.ch/" target="_blank">WebTigerJython öffnen</a>.
+                        </p>
+                        <p>
+                            Du solltest nun in deinem Browser ein Bild ähnlich dem Folgenden sehen: 
+                            <br/>
+                            <img src="img/start-1.jpg" alt="URL eingeben"
+                                class="d-block mt-3 img-fluid img-thumbnail" />
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 border-top mt-5 py-3">
+                        <a href="index.html" class="btn btn-secondary float-start">Zurück zu &raquo;Willkommen&laquo;</a>
+                        <a href="2-editor.html" class="btn btn-secondary float-end">Gehe zu &raquo;Editor&laquo;</a>
+                    </div>
                 </div>
             </div>
         </div>
